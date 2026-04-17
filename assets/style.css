@@ -176,3 +176,18 @@ a#link-button:hover {
   min-width: 100%; 
   min-height: 100%;
 }
+
+.glow {
+  color: #fff;
+  animation: glow 10s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #fff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #fff, 0 0 80px #ffffff;
+  }
+}
